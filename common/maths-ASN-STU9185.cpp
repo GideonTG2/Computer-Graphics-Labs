@@ -14,6 +14,11 @@ glm::mat4 Maths::scale(const glm::vec3& v)
     return scale;
 }
 
+// Define the rotation matrix
+glm::mat4 rotate;
+float angle = 45.0f * 3.1416f / 180.0f;
+rotate[0][0] = cos(angle), rotate[0][1] = sin(angle);
+rotate[1][0] = -sin(angle), rotate[1][1] = cos(angle);
 
 float Maths::radians(float angle)
 {
