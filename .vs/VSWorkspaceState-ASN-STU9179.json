@@ -1,0 +1,14 @@
+{
+  "OutputFoldersPerTargetSystem": {
+    "Local Machine": [
+      "out\\build\\x64-Debug",
+      "out\\install\\x64-Debug"
+    ]
+  },
+  "ExpandedNodes": [
+    "",
+    "\\Lab07_Moving_the_camera"
+  ],
+  "SelectedNode": "\\Lab07_Moving_the_camera\\Lab07_Moving_the_camera.cpp",
+  "PreviewInSolutionExplorer": false
+}

@@ -11,6 +11,18 @@
 
 // Function prototypes
 void keyboardInput(GLFWwindow *window);
+// Create camera object
+Camera camera(glm::vec3(1.0f, 1.0f, 1.0f), glm::vec3(0.0f, 0.0f, -2.0f));
+
+// Object struct
+struct Object
+{
+    glm::vec3 position = glm::vec3(0.0f, 0.0f, 0.0f);
+    glm::vec3 rotation = glm::vec3(0.0f, 1.0f, 0.0f);
+    glm::vec3 scale = glm::vec3(1.0f, 1.0f, 1.0f);
+    float angle = 0.0f;
+    std::string name;
+};
 
 int main( void )
 {
@@ -240,11 +252,17 @@ int main( void )
        // glm::mat4 projection = glm::ortho(-2.0f, 2.0f, -2.0f, 2.0f, 0.0f, 10.0f);
 
         // Calculate perspective projection matrix
-        glm::mat4 projection = glm::perspective(Maths::radians(45.0f), 1024.0f / 768.0f, 0.2f, 10.0f);
+       // glm::mat4 projection = glm::perspective(Maths::radians(45.0f), 1024.0f / 768.0f, 0.2f, 10.0f);
+
+        // Calculate view and projection matrices
+        camera.calculateMatrices();
+
+        //Calculate the MVP matrix and send it to the vertex shader
+        glm::mat4 MVP = camera.projection * camera.view * model;
 
         // Send MVP matrix to the vertex shader
-        glm::mat4 MVP = projection * view * model;
-        glUniformMatrix4fv(glGetUniformLocation(shaderID, "MVP"), 1, GL_FALSE, &MVP[0][0]);
+       // glm::mat4 MVP = projection * view * model;
+        //glUniformMatrix4fv(glGetUniformLocation(shaderID, "MVP"), 1, GL_FALSE, &MVP[0][0]);
 
         // Draw the triangles
         glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);

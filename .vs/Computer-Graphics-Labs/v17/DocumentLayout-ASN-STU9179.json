@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\21348106\\OneDrive - MMU\\Documents\\GitHub\\Computer-Graphics-Labs\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\21348106\\OneDrive - MMU\\Documents\\GitHub\\Computer-Graphics-Labs\\Lab06_3D_worlds\\Lab06_3D_worlds.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lab06_3D_worlds\\Lab06_3D_worlds.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\21348106\\OneDrive - MMU\\Documents\\GitHub\\Computer-Graphics-Labs\\Lab07_Moving_the_camera\\Lab07_Moving_the_camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lab07_Moving_the_camera\\Lab07_Moving_the_camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\21348106\\OneDrive - MMU\\Documents\\GitHub\\Computer-Graphics-Labs\\common\\maths.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:common\\maths.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Lab07_Moving_the_camera.cpp",
+              "DocumentMoniker": "C:\\Users\\21348106\\OneDrive - MMU\\Documents\\GitHub\\Computer-Graphics-Labs\\Lab07_Moving_the_camera\\Lab07_Moving_the_camera.cpp",
+              "RelativeDocumentMoniker": "Lab07_Moving_the_camera\\Lab07_Moving_the_camera.cpp",
+              "ToolTip": "C:\\Users\\21348106\\OneDrive - MMU\\Documents\\GitHub\\Computer-Graphics-Labs\\Lab07_Moving_the_camera\\Lab07_Moving_the_camera.cpp",
+              "RelativeToolTip": "Lab07_Moving_the_camera\\Lab07_Moving_the_camera.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-12T13:13:36.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "maths.cpp",
+              "DocumentMoniker": "C:\\Users\\21348106\\OneDrive - MMU\\Documents\\GitHub\\Computer-Graphics-Labs\\common\\maths.cpp",
+              "RelativeDocumentMoniker": "common\\maths.cpp",
+              "ToolTip": "C:\\Users\\21348106\\OneDrive - MMU\\Documents\\GitHub\\Computer-Graphics-Labs\\common\\maths.cpp",
+              "RelativeToolTip": "common\\maths.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-12T13:13:24.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Lab06_3D_worlds.cpp",
+              "DocumentMoniker": "C:\\Users\\21348106\\OneDrive - MMU\\Documents\\GitHub\\Computer-Graphics-Labs\\Lab06_3D_worlds\\Lab06_3D_worlds.cpp",
+              "RelativeDocumentMoniker": "Lab06_3D_worlds\\Lab06_3D_worlds.cpp",
+              "ToolTip": "C:\\Users\\21348106\\OneDrive - MMU\\Documents\\GitHub\\Computer-Graphics-Labs\\Lab06_3D_worlds\\Lab06_3D_worlds.cpp",
+              "RelativeToolTip": "Lab06_3D_worlds\\Lab06_3D_worlds.cpp",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-12T13:12:31.779Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
