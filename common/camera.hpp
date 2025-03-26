@@ -30,4 +30,11 @@ public:
 
     // Methods
     void calculateMatrices();
+
+    // Camera Euler angles
+    float yaw = Maths::radians(-90.0f);
+    float pitch = 0.0f;
+    float roll = 0.0f;
+
+    void calculateCameraVectors();
 };
